@@ -1,0 +1,51 @@
+{
+    "name": "interactions.js",
+    "version": "1.2.11",
+    "description": "A powerful Javascript library to work with discords interactions",
+    "main": "./src/index.js",
+    "typings": "./typings/index.d.ts",
+    "directories": {
+        "lib": "src"
+    },
+    "contributors": [
+        "fb-sean <sean@sattler.dev>",
+        "Tazhys <ben@tazhys.gg>"
+    ],
+    "license": "Apache-2.0",
+    "keywords": [
+        "discord",
+        "api",
+        "node",
+        "discordapp",
+        "bot",
+        "interactions"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fb-sean/interactions.js.git"
+    },
+    "dependencies": {
+        "@discordjs/rest": "^1.5.0",
+        "discord-api-types": "^0.37.35",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "fastify": "^4.14.1",
+        "mongoose": "^7.0.1",
+        "node-fetch": "^3.3.1"
+    },
+    "engines": {
+        "node": ">=16.9.0"
+    },
+    "bugs": {
+        "url": "https://github.com/fb-sean/interactions.js/issues"
+    },
+    "homepage": "https://interactionsjs.com/1.2.11/",
+    "scripts": {
+        "generate-docs": "jsdoc --configure jsdoc.json --verbose",
+        "generate-typings": "tsc"
+    },
+    "author": "fb-sean",
+    "devDependencies": {
+        "clean-jsdoc-theme": "^4.1.10"
+    }
+}
