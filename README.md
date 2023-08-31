@@ -1,7 +1,7 @@
-## About
-
 ## Disclaimer:
 - This is a custom version of the orginial package. All credits to the orginial owners.
+
+## About
 
 interactions.js is a powerful [Node.js](https://nodejs.org) module that allows you to easily interact with [Discord](https://discord.com/developers/docs/intro) interactions.
 
@@ -10,7 +10,7 @@ interactions.js is a powerful [Node.js](https://nodejs.org) module that allows y
 - Inbuilt Cache
 - Easy to use
 
-## Installation
+## Orginial Installation
 
 **Node.js 16.9.0 or newer is required.**
 
